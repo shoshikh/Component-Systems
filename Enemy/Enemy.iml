@@ -10,8 +10,8 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module" module-name="Common (1)" />
-    <orderEntry type="module" module-name="CommonBullet (1)" />
-    <orderEntry type="module" module-name="Bullet (1)" />
+    <orderEntry type="library" name="Maven: dk.sdu.mmmi.cbse:Common:1.0-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: dk.sdu.mmmi.cbse:CommonBullet:1.0-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: dk.sdu.mmmi.cbse:Bullet:1.0-SNAPSHOT" level="project" />
   </component>
 </module>

@@ -28,13 +28,13 @@
     <orderEntry type="library" name="Maven: com.badlogicgames.gdx:gdx-box2d-platform:natives-desktop:1.11.0" level="project" />
     <orderEntry type="library" name="Maven: com.badlogicgames.gdx:gdx-freetype:1.11.0" level="project" />
     <orderEntry type="library" name="Maven: com.badlogicgames.gdx:gdx-freetype-platform:natives-desktop:1.11.0" level="project" />
-    <orderEntry type="module" module-name="Common (1)" />
-    <orderEntry type="module" module-name="Player (1)" />
-    <orderEntry type="module" module-name="CommonBullet (1)" />
-    <orderEntry type="module" module-name="Bullet (1)" />
-    <orderEntry type="module" module-name="Enemy (1)" />
-    <orderEntry type="module" module-name="Asteroid (1)" />
-    <orderEntry type="module" module-name="CommonAsteroids (1)" />
-    <orderEntry type="module" module-name="Collision (1)" />
+    <orderEntry type="library" name="Maven: dk.sdu.mmmi.cbse:Common:1.0-SNAPSHOT" level="project" />
+    <orderEntry type="module" module-name="Player" />
+    <orderEntry type="library" name="Maven: dk.sdu.mmmi.cbse:CommonBullet:1.0-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: dk.sdu.mmmi.cbse:Bullet:1.0-SNAPSHOT" level="project" />
+    <orderEntry type="module" module-name="Enemy" />
+    <orderEntry type="library" name="Maven: dk.sdu.mmmi.cbse:Asteroid:1.0-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: dk.sdu.mmmi.cbse.commonasteroids:CommonAsteroids:1.0-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: dk.sdu.mmmi.cbse:Collision:1.0-SNAPSHOT" level="project" />
   </component>
 </module>
