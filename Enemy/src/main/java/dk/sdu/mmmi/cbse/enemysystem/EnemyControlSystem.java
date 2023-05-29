@@ -1,5 +1,6 @@
 package dk.sdu.mmmi.cbse.enemysystem;
 
+import dk.sdu.mmmi.cbse.common.bullet.BulletSPI;
 import dk.sdu.mmmi.cbse.common.data.Entity;
 import dk.sdu.mmmi.cbse.common.data.GameData;
 import dk.sdu.mmmi.cbse.common.data.World;
@@ -8,6 +9,8 @@ import dk.sdu.mmmi.cbse.common.data.entityparts.MovingPart;
 import dk.sdu.mmmi.cbse.common.data.entityparts.PositionPart;
 import dk.sdu.mmmi.cbse.common.enemy.Enemy;
 import dk.sdu.mmmi.cbse.common.services.IEntityProcessingService;
+import dk.sdu.mmmi.cbse.common.util.SPILocator;
+
 import java.util.Random;
 
 public class EnemyControlSystem implements IEntityProcessingService {
@@ -37,6 +40,14 @@ public class EnemyControlSystem implements IEntityProcessingService {
             if (rng > 0.8f) {
                 movingPart.setRight(true);
             }
+            if (rng > 0.8f) {
+                for (BulletSPI bullet : SPILocator.locateAll(BulletSPI.class)) {
+                    world.addEntity(bullet.createBullet(enemy, gameData));
+                }
+
+            }
+
+
 
             movingPart.process(gameData, enemy);
             positionPart.process(gameData, enemy);

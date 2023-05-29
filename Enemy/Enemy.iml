@@ -12,5 +12,6 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="CommonEnemy" />
     <orderEntry type="module" module-name="Common" />
+    <orderEntry type="module" module-name="CommonBullet" />
   </component>
 </module>
